@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Card</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+
+    <div class="product-card">
+      <div class="image-box">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx2TIXTwSkMcN2kp-EIQV2vpmI87MxpRT3GA&s"
+          alt="Addidas Originals"
+        />
+        <div class="overlay-button">
+            <button onclick="addToCart()">View Details</button>
+        </div>
+      </div>
+
+      <div class="info-box">
+        <div class="title-row">
+          <h3 class="title-row">Addidas Originals</h3>
+          <p class="price">$ 39</p>
+        </div>
+        <p class="subtitle">Men's running shirt</p>
+      </div>
+
+     <h4>SIZES</h4>
+     <p class="size-details">XS, S, M, L, XL, XXL</p>
+
+     <h4>COLORS</h4>
+     <div class="color-dots">
+        <span class="blue"></span>
+        <span class="red"></span>
+        <span class="white"></span>
+        <span class="green"></span>
+     </div>
+    </div>
+  </body>
+
+
+  <script src="script.js"></script>
+
+</html>
